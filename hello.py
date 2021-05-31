@@ -7,6 +7,7 @@ print('Hello ' + name + '. Welcome to the Matrix!')
 print(f'Hey {name}, welcome to the jungle!')
 
 # looping through string
+# also reversed the orger
 while len(name) > i:
     print(name[i])
     new_name = name[i] + new_name

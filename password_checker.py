@@ -2,6 +2,7 @@
 
 username = input('What is your username? ')
 password = input('What is your passowrd? ')
+password_length = len(password)
 hidden_password = '*' * len(password)
 
-print(f'Hey {username}, your password, {hidden_password} is {len(password)} characters long')
+print(f'Hey {username}, your password, {hidden_password} is {password_length} characters long')

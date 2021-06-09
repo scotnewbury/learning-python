@@ -6,7 +6,7 @@ def print_list(list):
   
   print(f'\n\nHere\'s the current list: ')
   while loop < list_length:
-    print(f'{list[loop]}')
+    print(f'{loop}. {list[loop]}')
     loop +=1
   print
 
@@ -21,7 +21,10 @@ simple_list = [
 print_list(simple_list)
 
 simple_list.append(input('\n\nWhat item do you want to add? '))
+print_list(simple_list)
 
+item_to_remove=int(input('Which item number would you like to remove? '))
+simple_list.pop(item_to_remove)
 print_list(simple_list)
 
 # challenge exercise lecture 43

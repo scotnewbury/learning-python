@@ -5,6 +5,6 @@ new_friend = ['Stanley']
 
 # friends.append(new_friend[0])
 
-friends.extend(new_friend)
+friends.extend(new_friend) # does not require index for solution, better?
 
 print(sorted(friends))

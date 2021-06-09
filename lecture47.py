@@ -3,6 +3,8 @@ friends = ['Simon', 'Patty', 'Joy', 'Carrie', 'Amira', 'Chu']
 
 new_friend = ['Stanley']
 
-friends.append(new_friend[0])
+# friends.append(new_friend[0])
+
+friends.extend(new_friend)
 
 print(sorted(friends))

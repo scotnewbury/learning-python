@@ -1,27 +1,32 @@
 # just testing out lists
 
-# loop = 0
-# simple_list = [
-#   'apple',
-#   'banana',
-#   'cherry',
-#   'date',
-#   'eggplant'
-# ]
-# simple_list_length = len(simple_list)
+def print_list(list):
+  loop = 0
+  list_length = len(list)
+  
+  print(f'\n\nHere\'s the current list: ')
+  while loop < list_length:
+    print(f'{list[loop]}')
+    loop +=1
+  print
 
-# # print(len(simple_list))
+simple_list = [
+  'apple',
+  'banana',
+  'cherry',
+  'date',
+  'eggplant'
+]
 
-# # loop through and print
+print_list(simple_list)
 
-# while loop < simple_list_length:
-#   print(f'{simple_list[loop]}')
-#   loop +=1
+simple_list.append(input('\n\nWhat item do you want to add? '))
+
+print_list(simple_list)
 
 # challenge exercise lecture 43
 # using this list: 
-basket = ["Banana", ["Apples", ["Oranges"], "Blueberries"]]
-# access "Oranges" and print it:
-
-print(basket[1][1][0])
+  # basket = ["Banana", ["Apples", ["Oranges"], "Blueberries"]]
+  # access "Oranges" and print it:
+  # print(basket[1][1][0])
 

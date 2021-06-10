@@ -21,6 +21,8 @@ user_profile['weapons'].append('dagger')
 print(user_profile['weapons'])
 
 #4 Add a new key to include 'is_banned'. Set it to false
+user_profile.update({'is_banned':False})
+print(user_profile)
 
 #5 Ban the user by setting the previous key to True
 

@@ -29,3 +29,5 @@ user_profile.update({'is_banned':True})
 print(user_profile)
 
 #6 create a new user2 my copying the previous user and update the age value and username value. 
+user2 = user_profile.copy()
+print(f'user2 {user2}')

@@ -12,7 +12,9 @@ user_profile = {
 print(user_profile.keys())
 
 #3 Add a new weapon to your user
-
+print(user_profile['weapons'])
+user_profile['weapons'] += ['dagger']
+print(user_profile['weapons'])
 
 #4 Add a new key to include 'is_banned'. Set it to false
 

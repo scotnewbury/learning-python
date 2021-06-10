@@ -25,5 +25,7 @@ user_profile.update({'is_banned':False})
 print(user_profile)
 
 #5 Ban the user by setting the previous key to True
+user_profile.update({'is_banned':True})
+print(user_profile)
 
 #6 create a new user2 my copying the previous user and update the age value and username value. 
